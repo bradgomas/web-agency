@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2c3e50;
+    background-color: #f8f9fa;
+    line-height: 1.6;
+}
+
+header.navbar {
+    background-color: #1a252f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+}
+
+header.navbar .brand img {
+    height: 36px;
+    display: block;
+}
+
+header.navbar nav ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+header.navbar nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease-in-out;
+}
+
+header.navbar nav a:hover {
+    color: #3498db;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+    color: #ffffff;
+}
+
+.hero h1 {
+    font-size: 2.75rem;
+    margin-bottom: 16px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 32px auto;
+    opacity: 0.9;
+}
+
+.hero .cta-btn {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: #ffffff;
+    padding: 12px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.hero .cta-btn:hover {
+    background-color: #c0392b;
+}
